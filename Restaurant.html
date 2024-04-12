@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title> Restaurant Le Bon Apétit </title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="center">Le Bon Apétit</h1>
+        <section id="navi">
+            <nav>
+                <ul>
+                    <li class="inlineblock"><a class=none href="#Présentation">Présentation</a></li>
+                    <li class="inlineblock"><a class=none href="#Menu">Menu</a></li>
+                    <li class="inlineblock"><a class=none href="#Horaires">Horaires</a></li>
+                    <li class="inlineblock"><a class=none href="#Localisation">Localisation</a></li>
+                    <li class="inlineblock"><a class=none href="#Contact">Contact</a></li>
+                    <li class="inlineblock"><a class=none href="#Spécialités">Réservez</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="border">
+            <h2 id="Présentation" class="center">Présentation</h2>
+            <p class="pa">Bienvenue au restaurant Le Bon Apetit ! Nous sommes fiers de vous proposer une cuisine
+                délicieuse
+                préparée avec des ingrédients frais et locaux.</p>
+            <img src="Plat.jpg" alt="Image plat" width="30%" height="30%" />
+        </section>
+        <section class="border">
+            <h2 id="Menu" class="center">Menu</h2>
+            <div class="pa">
+                <p>Voici un apercu de notre menu :</p>
+                <ul id="colone">
+                    <li>Entrées</li>
+                    <li>Plats principaux</li>
+                    <li>Desserts</li>
+                    <li>Boissons</li>
+                </ul>
+                <p>Nous avons également des options végétariennes et sans gluten.</p>
+            </div>
+        </section>
+        <section class="border">
+            <h2 id="Horaires" class="center">Horaires</h2>
+            <div class="pa">
+                <p>Nous sommes ouverts :</p>
+                <ul class="liste">
+                    <li>Lundi-Vendredi : 11h00-22H00</li>
+                    <li>Samedi-Dimanche : 10H00-23H00</li>
+                </ul>
+            </div>
+        </section>
+        <section class="border">
+            <h2 id="Localisation" class="center">Localisation</h2>
+            <div class="pa">
+            <p>Nous sommes situés au :</p>
+            <p><i>123 Rue de la Gourmandise<br>75001 Paris</i></p>
+            <p>Venez nous rendre visite !</p>
+            </div>
+        </section>
+        <section class="border">
+            <h2 id="Contact" class="center">Contact</h2>
+            <p class="pa">Pour toute question ou réservation, veuillez remplir le formulaire ci-dessous</p>
+            <div class="form">
+            <form>
+                <label>Nom :</label><br>
+                <input class="input" type="text" id="name" /><br>
+                <label>E-mail :</label><br>
+                <input class="input" type="email" id="mail" /><br>
+                <label>Message :</label><br>
+                <textarea class="input" id="msg" name="user_message" rows="5" cols="25"></textarea><br>
+                <input class="button" type="submit" value="Envoyer" />
+            </form>
+        </div>
+        </section>
+    </main>
+    <section class="border">
+        <h2 id="Spécialités" class="center">Tableau des spécialités</h2>
+        <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td><b>Plat</b></td>
+                    <td><b>Description</b></td>
+                    <td><b>Prix</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salade Niçoise</td>
+                    <td>Salade composée avec thon, œufs, tomates, olives</td>
+                    <td>12€</td>
+                </tr>
+                <tr>
+                    <td>Boeuf Bourguignon</td>
+                    <td>Plat traditionnel de viande de boeuf mijotée aux carottes, oignons, et vin rouge</td>
+                    <td>15€</td>
+                </tr>
+                <tr>
+                    <td>Tarte Tatin</td>
+                    <td>Tarte renversée aux pommes caramélisées</td>
+                    <td>8€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <footer>
+        <p class="footer">© 2024 Le Bon Apétit-Tous droits réservés</p>
+    </footer>
+</body>
